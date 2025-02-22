@@ -39,8 +39,8 @@ section {
 
 @media screen and (min-width: 1050px) {
     section {
-        margin-left : 300px;
-        margin-right : 300px;
+        margin-left : 350px;
+        margin-right : 350px;
     }
     header {
         position: fixed;
@@ -50,6 +50,9 @@ section {
     }
     body {
         margin-top: 180px;
+    }
+    h1 {
+        width: 2vw;
     }
     
 }
