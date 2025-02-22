@@ -37,6 +37,13 @@ section {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+h1 {
+    width: 100vw;
+    white-space: nowrap; /* Empêche le texte de passer à la ligne */
+    overflow: hidden; /* Cache le dépassement si nécessaire */
+    text-overflow: ellipsis; /* Ajoute des "..." si le texte est trop long */
+}
+
 @media screen and (min-width: 1050px) {
     section {
         margin-left : 350px;
@@ -51,10 +58,6 @@ section {
     body {
         margin-top: 180px;
     }
-    h1 {
-        width: 2vw;
-    }
-    
 }
   
 /* Pour les tablettes */
