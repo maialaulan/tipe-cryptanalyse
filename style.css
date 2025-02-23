@@ -112,3 +112,23 @@ footer {
     color: white;
     margin-top: 20px;
 }
+
+/* Mode sombre */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1e1e1e;
+        color: #e0e0e0;
+    }
+
+    section {
+        background: #2a2a2a;
+    }
+
+    a {
+        color: #ffa500; /* Orange */
+    }
+
+    a:hover {
+        color: #bd7b00; /* Orange plus foncé */
+    }
+}
