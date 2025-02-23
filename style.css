@@ -63,15 +63,8 @@ section {
         padding: 20px 0; /* Ajuste l'intérieur sans fixer la hauteur */
     }
 
-    h1 {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        font-size: 1.7vw; /* Garde l'adaptation dynamique */
-    }
-
     body {
-        padding-top: calc(80px + 4vw); /* Ajuste dynamiquement en fonction de la taille de l'écran */
+        padding-top: 150px; /* Ajuste dynamiquement en fonction de la taille de l'écran */
     }
 }
   
