@@ -50,23 +50,28 @@ section {
 
 @media screen and (min-width: 1050px) {
     section {
-        margin-left : 19vw;
-        margin-right : 19vw;
+        margin-left: 19vw;
+        margin-right: 19vw;
     }
+
     header {
         position: fixed;
-        top: 0%;
+        top: 0;
         z-index: 22;
         width: 100%;
+        height: auto;
+        padding: 20px 0; /* Ajuste l'intérieur sans fixer la hauteur */
     }
+
     h1 {
-        white-space: nowrap; /* Empêche le texte de passer à la ligne */
-        overflow: hidden; /* Cache le dépassement si nécessaire */
-        text-overflow: ellipsis; /* Ajoute des "..." si le texte est trop long */
-        font-size: 1.7vw;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 1.7vw; /* Garde l'adaptation dynamique */
     }
+
     body {
-        margin-top: 180px;
+        padding-top: calc(80px + 4vw); /* Ajuste dynamiquement en fonction de la taille de l'écran */
     }
 }
   
